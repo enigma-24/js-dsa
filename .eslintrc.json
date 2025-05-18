@@ -12,6 +12,7 @@
 		// Add any custom rules or overrides here
 		"no-console": "off", // Since this is a Node.js app, we'll allow console.log
 		"no-plusplus": "off",
-		"no-tabs": "off"
+		"no-tabs": "off",
+		"indent": "off"
 	}
 }
