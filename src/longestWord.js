@@ -1,11 +1,11 @@
 const longestWord = (sentence) => {
 	const arrWords = sentence.split(' ');
-	let longestWord = '';
+	let wordLongest = '';
 	for (let i = 0; i < arrWords.length; i++) {
-		if (arrWords[i].length >= longestWord.length) longestWord = arrWords[i];
+		if (arrWords[i].length >= wordLongest.length) wordLongest = arrWords[i];
 	}
 
-	return longestWord;
+	return wordLongest;
 };
 
 module.exports = longestWord;
